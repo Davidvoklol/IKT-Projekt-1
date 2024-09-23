@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.row{
+    place-content: center;
+}
+
+.card{
+    gap: 1em;
+}
+
+.card > img{
+    height: 200px;
+}

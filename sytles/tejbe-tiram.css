@@ -1,0 +1,40 @@
+:root{
+    --dark: #393E46;
+    --dark-blue: #222831;
+    --light-blue: #00ADB5;
+    --light: #EEEEEE;
+}
+
+.btn{
+    background-color: var(--dark);
+    padding: 1em 5em;
+}
+
+.btn:hover{
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+.row{
+    place-content: center;
+}
+
+.card{
+    border: 1px solid var(--dark-blue);
+    transition-duration: 100ms;
+    height: fit-content;
+    height: 400px;
+}
+
+.card:hover{
+    border: 1px solid var(--light);
+}
+
+.img-card{
+    place-content: center;
+    padding: .5em;
+}
+
+img{
+    border-radius: 2.5px;
+}

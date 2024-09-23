@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+:root {
+    --dark: #393E46;
+    --dark-blue: #222831;
+    --light-blue: #00ADB5;
+    --light: #EEEE;
+}
+
+
+html,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    gap: 1em;
+    line-height: 1.75em;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    padding: 20px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.card {
+    background-color: var(--dark-blue);
+    padding: 1.5em;
+}
+
+.card>img {
+    object-fit: cover;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    padding: .5em 2em;
+    box-sizing: border-box;
+    font-weight: 700;
+    width: fit-content;
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    border: 1px solid var(--light-blue);
+}
+
+.btn:hover {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+}
