@@ -30,7 +30,7 @@ body {
 
 .card {
     background-color: var(--dark-blue);
-    padding: 1.5em;
+    padding: 1em;
 }
 
 .card>img {
