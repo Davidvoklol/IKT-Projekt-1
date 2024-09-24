@@ -5,6 +5,7 @@ h1{
 
 .row{
     place-content: center;
+    gap: 1em;
 }
 
 .card{
