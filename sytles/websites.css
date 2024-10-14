@@ -19,6 +19,7 @@ h1{
 }
 
 .row{
+    gap: 1em 0em;
     place-content: center;
 }
 
