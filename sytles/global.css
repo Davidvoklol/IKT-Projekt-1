@@ -16,14 +16,12 @@ html,
 
 body {
     display: grid;
-    gap: 1em;
-    line-height: 1.75em;
+    gap: 3em;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 120%;
-    padding: 20px;
     background-color: var(--dark);
     color: var(--light);
 }
@@ -49,14 +47,14 @@ body {
     text-decoration: none;
     display: block;
     margin: auto;
-    padding: .25em 1em;
+    padding: .5em 1.5em;
+    border: 1px solid var(--light-blue);
     border-radius: 0.25em;
     box-sizing: border-box;
-    font-weight: 700;
+    font-weight: 900;
     width: fit-content;
     background-color: var(--dark-blue);
     color: var(--light-blue);
-    border: 1px solid var(--light-blue);
     transition: all 100ms;
 }
 
