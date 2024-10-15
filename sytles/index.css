@@ -1,17 +1,41 @@
+:root {
+    --dark: #393E46;
+    --dark-blue: #222831;
+    --light-blue: #00ADB5;
+    --light: #EEEE;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    gap: 5em;
+}
+
 h1{
     text-align: center;
     padding-bottom: 100px;
 }
 
+h3{
+    font-weight: 900;
+    color: var(--dark-blue);
+    border-bottom: 3px solid var(--dark-blue);
+    padding: .25em;
+}
+
 .row{
     place-content: center;
-    gap: 1em 0em;
 }
 
 .card{
-    gap: 1em;
+    margin: .5em 0em;
+    gap: .5em;
 }
 
 .card > img{
     height: 200px;
+}
+
+.red{
+    border: 1px solid red;
 }
