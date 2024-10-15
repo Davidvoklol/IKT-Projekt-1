@@ -8,27 +8,38 @@ h1{
     text-align: center;
 }
 
-.btn{
+.costum-btn{
     background-color: var(--dark);
     padding: 1em 5em;
 }
 
-.btn:hover{
+.costum-btn:hover{
     border: 1px solid var(--dark);
     color: var(--dark);
 }
 
 .row{
+    gap: 1em 0em;
     place-content: center;
 }
 
 .card{
     border: 1px solid var(--dark-blue);
-    transition-duration: 100ms;
 }
 
 .card:hover{
     border: 1px solid var(--light);
+    transform: translate(-2px, -5px);
+    filter: drop-shadow(2px 5px 10px black);
+    z-index: 99;
+}
+
+.card-body > h5{
+    text-decoration: underline;
+}
+
+.col-md-7:nth-of-type(2) > .card > .card-body > ol > li{
+    margin-block: .75em;
 }
 
 img{
