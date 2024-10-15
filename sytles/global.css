@@ -31,6 +31,14 @@ body {
 .card {
     background-color: var(--dark-blue);
     padding: 1em;
+    border: 1px solid transparent;
+    transition-duration: 100ms;
+}
+
+.card:hover{
+    transform: translate(-2px, -5px);
+    filter: drop-shadow(2px 5px 5px black);
+    z-index: 99;
 }
 
 .card>img {
