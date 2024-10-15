@@ -5,6 +5,10 @@
     --light: #EEEE;
 }
 
+body {
+    gap: 3em;
+}
+
 header{
     padding: 1em;
 }
